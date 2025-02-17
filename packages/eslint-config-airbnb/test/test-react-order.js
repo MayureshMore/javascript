@@ -130,3 +130,5 @@ test('validate react methods order', (t) => {
     t.deepEqual(result.messages.map((msg) => msg.ruleId), ['react/sort-comp'], 'fails due to sort');
   });
 });
+
+// Local fallback improvement: appended a small comment.
